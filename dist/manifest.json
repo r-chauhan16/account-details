@@ -1,0 +1,47 @@
+{
+    "name": "account-details",
+    "extension-version": "2.4.0",
+    "sdk-version": "7.3.0",
+    "publisher": "DEVL Account details review",
+    "cards": [
+        {
+            "type": "AccountDetailsCard",
+            "title": "Account Details",
+            "displayCardType": "Account Details",
+            "description": "Account Details",
+            "componentFile": "AccountDetailsCard-1709316559587.js",
+            "configuration": {
+                "client": [
+                    {
+                        "key": "serviceUrl",
+                        "label": "Service URL",
+                        "type": "text",
+                        "required": true
+                    },
+                    {
+                        "key": "payNowUrl",
+                        "label": "Pay Now URL",
+                        "type": "text",
+                        "required": false
+                    }
+                ],
+                "server": [
+                    {
+                        "key": "apiKey",
+                        "label": "Ethos API Key",
+                        "type": "password",
+                        "require": false
+                    }
+                ]
+            }
+        }
+    ],
+    "adminComponents": [],
+    "otherAssets": [],
+    "page": {
+        "componentFile": "Page-1709316559587.js",
+        "allowPublicAccess": false,
+        "fullWidth": false,
+        "backgroundColor": "default"
+    }
+}
